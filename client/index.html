@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Barlow+Condensed:wght@100&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Barlow+Condensed:wght@100&family=Cookie&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>etoile headbands</title>
+  </head>
+  <body>
+    <head>
+      <div id="headerDiv">
+        <img
+          class="headerimg"
+          src="../public/logo-07.jpg"
+          alt="etoile headbands logo"
+        />
+        <h1>Etoile Headbands</h1>
+        <img
+          class="headerimg"
+          src="../public/logo-07.jpg"
+          alt="etoile headbands logo"
+        />
+      </div>
+    </head>
+
+    <main>
+      <div class="row">
+        <div class="headbands">
+          <img
+            class="hbImg"
+            src="/public/white_black_knot_HB.jpg"
+            alt="White and black floral knotted
+          headband"
+          />
+          <h3>The Charlotte Knotted Headband</h3>
+          <p>$12.99</p>
+          <form id="charForm" class="quantity">
+            <select id="charDrop" class="qty-dropdown">
+              <option>select quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="qtyBtn" id="charQtyBtn">Add to cart</button>
+          </form>
+        </div>
+        <div class="headbands">
+          <img
+            class="hbImg"
+            src="/public/fuschia_knot_HB.jpg"
+            alt="Fuschia floral knotted
+          headband"
+          />
+          <h3>The Adelyn Knotted Headband</h3>
+          <p>$12.99</p>
+          <form id="adeForm" class="quantity">
+            <select id="adeDrop" class="qty-dropdown">
+              <option>select quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="qtyBtn" id="adeQtyBtn">Add to cart</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="headbands">
+          <img
+            class="hbImg"
+            src="/public/red_knot_HB.jpg"
+            alt="red embroidered knotted
+          headband"
+          />
+          <h3>The Sarah Knotted Headband</h3>
+          <p>$12.99</p>
+          <form id="sarForm" class="quantity">
+            <select id="sarDrop" class="qty-dropdown">
+              <option>select quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="qtyBtn" id="sarQtyBtn">Add to cart</button>
+          </form>
+        </div>
+        <div class="headbands">
+          <img
+            class="hbImg"
+            src="/public/navy_bow_HB.jpg"
+            alt="navy floral bow headband"
+          />
+          <h3>The Evangeline bow Headband</h3>
+          <p>$12.99</p>
+          <form id="evaForm" class="quantity">
+            <select id="evaDrop" class="qty-dropdown">
+              <option>select quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="qtyBtn" id="evaQtyBtn">Add to cart</button>
+          </form>
+        </div>
+      </div>
+      <div id="chkOut">
+        <div class="btnChk">
+          <button class="modal-btn">Review Cart</button>
+        </div>
+      </div>
+      <div class="modal-bg">
+        <div class="modal">
+          <h2>Review Order</h2>
+          <section id="ordConfirmation"></section>
+          <button id="confirmOdr">Confirm Order</button>
+          <span class="modal-close">X</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footerPDiv">
+        <div class="ftDiv">
+          <h3>About Us</h3>
+          <p>Story</p>
+          <p>Careers</p>
+          <p>Employees</p>
+        </div>
+        <div class="ftDiv">
+          <h3>Contact Us</h3>
+          <p>Email</p>
+          <p>Phone</p>
+          <p>Return Policy</p>
+        </div>
+        <div class="ftDiv">
+          <h3>Social Media</h3>
+          <p>Twitter</p>
+          <p>Facebook</p>
+          <p>Instagram</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
